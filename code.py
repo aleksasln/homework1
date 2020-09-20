@@ -10,3 +10,7 @@ mode=input('Выберите реежим работы (C-шифрование D
 text=input('Введите текст: ').lower() #ввод текста
 step=int(input('Введите шаг: ')) #ввод шага
 result = '' #переменная для хранения результата
+if mode=='C': #шифрование
+    for c in text:
+       result += alphabet[(alphabet.index(c) + step) % len(alphabet)] #формула для шифрования текста с использованием шифра Цезаря
+    print('Зашифрованный текст: ', result)
