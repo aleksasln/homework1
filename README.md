@@ -10,4 +10,4 @@ To use it, open the file code.py and start the program, then in the console you 
 
 Screenshot of execution
 -----
-![Screenshot](screenshot.png)
+![screenshot](screenshot.PNG)
