@@ -14,3 +14,7 @@ if mode=='C': #шифрование
     for c in text:
        result += alphabet[(alphabet.index(c) + step) % len(alphabet)] #формула для шифрования текста с использованием шифра Цезаря
     print('Зашифрованный текст: ', result)
+elif mode=='D': #дешифрование
+    for c in text:
+       result += alphabet[(alphabet.index(c) - step) % len(alphabet)] #формула для дешифрования текста с использованием шифра Цезаря
+    print('Расшифрованнный текст: ', result)
