@@ -1,3 +1,13 @@
 # homework1
-Код программы написан на языке программирования Python. Программа создана для шифрования и дешифрования слов с использованием шифра Цезаря.
-Для использования следует открыть файл code.py и запустить программу, далее в консоли необходимо выбрать язык и режим работы, после ввести слово и количество шагов.
+
+##What is it?
+
+The program code is written in Python. The program is designed to encrypt and decrypt words using the Caesar cipher.
+
+##How to use it?
+
+To use it, open the file code.py and start the program, then in the console you need to select the language and mode of operation, then enter the word and the number of steps.
+
+##Screenshot of execution
+
+![alt text](https://ltdfoto.ru/image/lzKWn)
