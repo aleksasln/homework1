@@ -10,6 +10,10 @@ while True:
     convert=input('Попробовать снова?(Да/Нет): ')
     if convert=='Да':
         language=input('Выберите язык (А-анлийский Б-русский): ')
+        if language=='А': #анализ введеного значения
+            alphabet='abcdefghijklmnopqrstuvwxyz'
+        elif language=='Б':
+            alphabet='абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
     else:
         break
   mode=input('Выберите режим работы (В-шифрование Г-дешифрование): ') #выбор режима работы
