@@ -29,7 +29,7 @@ while True:
        for c in text:
              result += alphabet[(alphabet.index(c) - step) % len(alphabet)] #формула для дешифрования текста с использованием шифра Цезаря
        print('Расшифрованнный текст: ', result)
-       resuls=''
+       result=''
   P=input('Ещё раз?(Да/Нет): ')
   if P=='Да':
       continue
